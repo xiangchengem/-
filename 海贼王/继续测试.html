@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>继续测试</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/mui.min.js"></script>
+</head>
+<body>
+    <div class="list-t-wrap">
+        <div id="refreshContainer" class="mui-scroll-wrapper mui-content">
+            <div class="mui-scroll">
+                <div class="list-wrapper">
+                    <!--列表一定要放到容器内,因为会有一个div append到mui-scroll中,需要在底部才能起作用-->
+                    <ul id="testUl" class="mui-table-view mui-table-view-chevron">
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                        <li><a href="javascript:;"><img src="images/1d.jpg"></a><p>娱乐</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    mui.init({
+    pullRefresh : {
+        container:"#refreshContainer",//待刷新区域标识，querySelector能定位的css选择器均可，比如：id、.class等
+        up : {
+            height:50,// 可选.默认50.触发上拉加载拖动距离
+            auto:false,// 可选,默认false.自动上拉加载一次
+            contentrefresh : "正在加载...",// 可选，正在加载状态时，上拉加载控件上显示的标题内容
+            contentnomore:'没有更多数据了',// 可选，请求完毕若没有更多数据时显示的提醒内容；
+            callback : function() {
+                var self = this; // 这里的this == mui('#refreshContainer').pullRefresh()
+                // 加载更多的内容
+                loadMore(this);
+            } //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+        }
+    }
+});
+
+// 
+var loadMore = function(pullRefresh) {
+    // 加载更多的内容到列表中
+    // TODO
+    // 如果没有更多数据了，则关闭上拉加载
+    pullRefresh.endPullupToRefresh(true);
+    // 如果有更多数据，则继续
+    pullRefresh.endPullupToRefresh(false);
+};
+    </script>
+</body>
+</html>

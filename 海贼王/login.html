@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.css" rel="stylesheet"/>
+    <!-- <script src="插件/assets/js/amazeui.js"></script> -->
+    <!-- <link rel="stylesheet" href="插件/assets/css/amazeui.css"> -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script> -->
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/login.js"></script>  
+
+</head>
+<body>
+    <header>
+        <div class="clearfix">
+            <a href="main.html" class="mui-icon mui-icon-back f_left"></a>
+            <a href="javascript:;" class="mui-icon mui-icon-chat f_right"></a>
+        </div>
+    </header>
+    <aside class="clearfix">
+        <!-- ====猫头鹰===== -->
+        <div class="pr container">
+                <div class="ear1"></div>
+                <div class="ear2"></div>
+                <div class="pr owl-head">
+                  <div class="pa fl eye eye1">
+                    <div class="pa eye-inside">
+                      <div class="half-circle"></div>
+                    </div>
+                  </div>
+                  <div class="pa fr eye eye2">
+                    <div class="pa eye-inside">
+                      <div class="half-circle"></div>
+                    </div>
+                  </div>
+                  <div class="nose"></div>
+                </div>
+                <div class="cf">
+                  <div class="fl owl-leg leg1"></div>
+                  <div class="fl owl-leg leg2"></div>
+                </div>
+                <div class="pr branch"></div>
+        </div>
+        <!-- ==========登录列表========= -->
+
+        <form action="" method="" autocomplete="off">
+            <input type="text" required="required" placeholder="请输入手机号/账号" id="login_name">
+            <input type="password"required="required" placeholder="请输入密码" class="mui-input-password" id="login_psd"><br>
+            <a href="javascript:;" class="login_up">手机号快速注册</a>
+            <a href="javascript:;">忘记密码?</a><br>
+            <input type="submit" value="登录" id="login">
+        </form> 
+        <div class="login_">——————&nbsp;&nbsp;&nbsp;第三方登陆&nbsp;&nbsp;&nbsp;——————</div>
+        <div class="login_icon">
+            <span class="mui-icon mui-icon-qq"></span>
+            <span class="mui-icon mui-icon-weixin"></span>
+            <span class="mui-icon mui-icon-weibo"></span>
+        </div>
+
+
+                    <!-- 登录表单错误遮盖层 -->
+                    <!-- filter   -》css3滤镜效果奇丑无比 -->
+   <div class="content_zg">
+        <h4>点击确认获得一次重新输入机会</h4>
+        <!-- <h4>当然不点也没关系</h4> -->
+        <div class="container_xz">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+        </div>
+        <div class="dianjiqueren">确&nbsp;认</div>
+   </div>
+   <div class="dianjiqueren_bg" ></div>
+
+    </aside>
+    <footer>
+        <div class="bg"><img src="images/backF.png" alt=""></div>
+    </footer>
+
+    <!-- 注册页面 -->
+    <article>
+        <!-- 遮盖层 -->
+    <div id="bg" class="login-bg" ></div>
+
+    <form action="" id="register" autocomplete="off">
+        <div class="biaoti">OnePiece</div>
+		<ul>
+			<li>
+				<input type="text" id="userName" required="required" placeholder="请输入用户名">
+                <span class="icon1"><img src="images/icon7.png" alt=""></span>
+			</li>
+			<li>
+				<input type="password" id="pwd" required="required" placeholder="请输入密码">
+				<span class="icon2"><img src="images/icon7.png" alt=""></span>
+				<div id="strange"></div>
+			</li>
+			<li>
+				<input type="number" id="phoneNum" required="required" placeholder="请输入手机账号">
+				<span class="icon3"><img src="images/icon7.png" alt=""></span>
+			</li>
+			<li>
+				<input type="number" id="promise" required="required" placeholder="验证码">
+                <!-- <button id="yanzhengma">发送验证码</button> -->
+                <span class="icon4"><img src="images/icon7.png" alt=""></span>
+				<input type="button" value="发送手机验证码" id="yanzhengma">
+				<!-- <span class="icon2"><img src="images/icon7.png" alt=""></span> -->
+			</li>
+			<li>
+				<input type="submit" value="确认注册" id="submitB">
+				<input type="reset" value="取  消" id="submitA">
+			</li>
+        </ul>
+    </form>
+
+    
+
+    </article>
+</body>
+</html>

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.css" rel="stylesheet"/>
+    <!-- <script src="插件/assets/js/amazeui.js"></script> -->
+    <!-- <link rel="stylesheet" href="插件/assets/css/amazeui.css"> -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="onepiece.css">
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/mui.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/onepiece.js"></script>  
+</head>	
+<body>
+    <!-- 头部结构 -->
+    <header class="mui-bar-nav zy_header">
+        <div class="hd_body clearfix">
+            <div class="hd_fixed">
+                <a href="javascript:;" class="f_left touxiang">
+                    <img src="images/touxiang.jpg" alt="">
+                </a>
+                <div class="hd_search">
+                        <span></span>
+                        <input type="text" placeholder="海贼王十大高手排行榜">
+                </div>
+                <!-- 头部导航栏 -->
+            </div>
+        </div>
+    </header>
+    <!-- 主体内容 -->
+    <article class="zy_body mui-slider">
+                <!-- 头部导航栏 -->
+        <nav class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+            <ul class="hd_menu clearfix">
+                <li>
+                    <a class="mui-control-item mui-active" href="#item1">推介</a>
+                </li>
+                <li>
+                    <a class="mui-control-item" href="#item2">人物</a>
+                </li>
+                <li>
+                    <a class="mui-control-item" href="#item3">情报资讯</a>
+                </li>
+                <li>
+                    <a class="mui-control-item" href="#item4">专题</a>
+                </li>
+                <li>
+                    <a class="mui-control-item" href="#item5">综合</a>
+                </li>
+            </ul>
+        </nav>
+    <div class="at_show mui-slider-group" id="refreshContainer" class=" enjoy_produ  ctBox mui-content mui-scroll-wrapper">
+        <!-- yi -->
+        <div id="item1" class="mui-content mui-scroll mui-slider-item mui-control-content mui-active">
+            <div class="mui-row mui-table-view mui-table-view-chevron" id="testUl">
+                <!-- 轮播图 -->
+                <div class="banner">
+                        <div class="mui-slider">
+                                <div class="mui-slider-group mui-slider-loop">
+                                <!--支持循环，需要重复图片节点-->
+                                <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                <div class="mui-slider-item"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                <div class="mui-slider-item"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                <div class="mui-slider-item"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                <div class="mui-slider-item"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                <!--支持循环，需要重复图片节点-->
+                                <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/timg.jpg" /></a></div>
+                                </div>
+                                <!-- 圆点序号 -->
+                                <div class="mui-slider-indicator">
+                                        <div class="mui-indicator mui-active"></div>
+                                        <div class="mui-indicator"></div>
+                                        <div class="mui-indicator"></div>
+                                        <div class="mui-indicator"></div>
+                                </div>
+                        </div>
+                </div>
+                <!-- 主体描述部分 -->
+                    <div class="mui-col-xs-6">
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right">
+                                <video src="./video/【pipi-萍萍】LOSER + 【脚下即是舞台】 - 1.loser最终版_x264(Av27301631,P1).mp4" controls></video>
+                            </a>
+                            <!-- 图片描述部分describe -->
+                            <div class="describe">
+                                <a href="javascript:;">
+                                    <h5>呵呵，你对JavaScript的Bug一无所知--------秃头大师·布兰登·艾奇</h5>
+                                </a>
+                                <a href="javascript:;">
+                                    <span>OP</span>
+                                    <span>主题曲</span>
+                                    <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right">
+                                <img src="images/image9.png" alt="">   
+                            </a>
+                            <!-- 图片描述部分describe -->
+                            <div class="describe">
+                                <a href="javascript:;">
+                                    <h5>不良少年为追妹，勇闯体坛！</h5>
+                                </a>
+                                <a href="javascript:;">
+                                    <span>OP</span>
+                                    <span>主题曲</span>
+                                    <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image1.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>法网恢恢,警方千里缉拿残障逃犯！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image2.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>震惊!!!!!!拆迁办频繁光顾东京!！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image3.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>舒克与贝塔！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>小蝌蚪找妈妈！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image5.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>犬夜叉！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image6.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海尔兄弟！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image7.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>大头儿子小头爸爸！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/image8.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>名侦探柯南！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    <div class="mui-col-xs-6">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">
+                                    <img src="images/banner_4.jpg" alt="">  
+                                </a>
+                                <!-- 图片描述部分describe -->
+                                <div class="describe">
+                                    <a href="javascript:;">
+                                        <h5>海贼王九大经典战役，旋律超燃！</h5>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <span>OP</span>
+                                        <span>主题曲</span>
+                                        <span class="mui-icon mui-icon mui-icon-gear last_icon"></span>
+                                    </a>
+                                </div>
+                            </li>
+                    
+                    </div>
+                    
+            </div>
+        </div>
+    <!-- =====================第二页========================= -->
+			<div  id="item2" class="mui-slider-item mui-control-content mui-scroll">
+                <!-- <div class="mui-scroll-wrapper"> -->
+				<!-- <div class="mui-scroll"> -->
+                <!-- 展示图~~~~~ -->
+                <div class="er_zy">
+                    <a href="javascript:;">
+                        <img src="images/banner_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="er_zy2">
+                    <a href="javascript:;">
+                        <img src="images/img_15.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 开始人物介绍 -->
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_6F.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【草帽小子】 蒙奇·D·路飞</h5>
+                        <p> 
+                        草帽海贼团船长。草帽海贼团三主力之一，是吃橡胶果实能力者。
+                        其口头禅为：“我是要成为海贼王的男人！”       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <!-- 第二个 -->
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/banner_15F.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【海贼猎人】 罗罗诺亚·索隆</h5>
+                        <p> 
+                        海贼第一超级大路痴。
+                        为了小时候与挚友的约定而踏上了前往世界第一剑士的道路!
+              
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_5.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【黑足】 山治</h5>
+                        <p> 
+                                金发，有着卷曲眉毛，
+                                香烟不离口，最爱女人。
+                                梦想是找到传说之海All Blue而跟随路飞一同进入了伟大航路。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_4.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【GOD·狙击王】 乌索普</h5>
+                        <p> 
+                                头戴狙击防风镜、浅啡色头巾，长鼻子。
+                                小时候是出名的吹牛大王，和村里的几个孩子组成“乌索普海贼团”，自称乌索普船长。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/banner_12.JPEG" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【会说话的驯鹿】 托尼托尼·乔巴</h5>
+                        <p> 
+                                原为磁鼓岛Dr.库蕾哈医生最宠爱的驯鹿兼医疗助手。
+                                其梦想是成为“万能药”。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_2F.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【恶魔之子】 妮可·罗宾</h5>
+                        <p> 
+                                个性冷静，擅长考古学以，学识渊博。
+                                目标是找到真正的历史正文，绝不饶恕践踏历史文物的人。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_7.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【死亡外科医生】 罗</h5>
+                        <p> 
+                                红心海贼团船长，手术果实能力者，
+                                绰号“死亡外科医生”，其本人也是一名医生。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_8.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【小丑】 多弗朗明哥</h5>
+                        <p> 
+                                渴望新时代来临的力量的化身！
+                                与世界政府联手,在历史的背后行动的海贼！
+                                德雷斯罗萨国王,王下七武海之一。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_12F.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【迷弟】 巴托洛米奥</h5>
+                        <p> 
+                        疯狂的新人海贼，性格极度嚣张狂妄，放荡不羁。
+                        屏障果实能力者非常崇拜路飞，目前赏金达到两亿，被称为第一防御者。       
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <div class="er_pro clearfix">
+                    <div class="left_img f_left">
+                        <img src="images/img_14F.jpg" alt="">
+                    </div>
+                    <div class="right_text f_left">
+                        <h5>【海军第一呆萌】 达斯琪</h5>
+                        <p> 
+                            面容与索隆小时候的伙伴古伊娜非常相似 ，斯摩格的直属部下，
+                            是在罗格镇驻军的海军，誓言要收齐所有被恶人夺去的名刀。
+                        </p>
+                        <a href="javascript:;">查看详情</a>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+            <!-- ===========================第三页==================== -->
+			<div  id="item3" class="mui-slider-item mui-control-content mui-scroll">
+                <div class="san_zy">
+                <h5>情报资讯</h5>
+
+                </div>
+                <div class="san_pro">
+                    <h5>内容分析</h5>
+                </div>
+                <div class="san_pro">
+                    <h5>海贼美图</h5>
+                </div>
+                <div class="san_pro">
+                    <h5>cosplay</h5>
+                </div>
+                <div class="san_pro">
+                    <h5>同人漫画</h5>
+                </div>
+                <div class="san_pro">
+                    <h5>动画下载</h5>
+                </div>
+
+        
+            </div>
+    <!-- ==================================第四页================== -->
+    <div  id="item4" class="mui-slider-item mui-control-content mui-scroll">
+            <!-- <canvas id="canvas"></canvas> -->
+    </div>
+        </div>
+    </article>
+
+    <!-- 个人中心菜单 -->
+    <aside class="personal">
+        <div class="header_p">
+            <a href="javascript:;"><img src="images/touxiang.jpg" alt=""></a>
+            <a href="javascript:;" class="get_back"><span class="mui-icon mui-icon-undo"></span></a>
+            <a href="javascript:;"><span class="mui-icon mui-icon-help"></span></a>
+            <div class="user_name">
+                    <span>一坨二批</span> <span>LV5</span><span>小会员</span><br>
+                    <span>Q币：0.0</span> &nbsp;&nbsp;<span>硬币：468</span>
+            </div>
+        </div>
+        <div class="body_p">
+            <div class="body_stu">
+                <a href="javascript"><span>22</span>动态</a>
+                <a href="javascript"><span>33</span>关注</a>
+                <a href="javascript"><span>11</span>粉丝</a>
+            </div>
+            <div class="body_nav">
+                <nav><span class="mui-icon mui-icon-home"></span>首页</nav>
+                <nav><span class="mui-icon mui-icon-spinner mui-spin"></span>历史记录</nav>
+                <nav><span class="mui-icon mui-icon-download"></span>离线缓存</nav>
+                <nav><span class="mui-icon mui-icon-starhalf"></span>我的收藏</nav>
+                <nav><span class="mui-icon mui-icon-info"></span>我的关注</nav>
+                <nav><span class="mui-icon mui-icon-videocam"></span>稍后再看</nav>
+                <!-- —————————————————————————————— -->
+                <nav><span class="mui-icon mui-icon-compose"></span>创作中心</nav>
+                <nav><span class="mui-icon mui-icon-upload"></span>投稿</nav>
+        <!-- ———————————————————————————— -->
+                <!-- <nav><span class="mui-icon mui-icon-spinner-cycle mui-spin"></span>直播中心</nav> -->
+                <!-- <nav><span class="mui-icon mui-icon-contact"></span>我的大会员</nav> -->
+                <!-- <nav><span class="mui-icon mui-icon-reload" ></span>免流量服务</nav> -->
+                <!-- <nav><span class="mui-icon mui-icon-paperplane"></span>会员购物中心</nav> -->
+                <!-- <nav><span class="mui-icon mui-icon-chatboxes" ></span>联系客服</nav> -->
+            </div>
+        </div>
+        <div class="body_footer">
+            <nav class="exit"><span class="mui-icon mui-icon-gear"></span>设置</nav>
+            <nav><span class="mui-icon mui-icon-pengyouquan"></span>主题</nav>
+            <nav><span class="mui-icon mui-icon-spinner mui-spin"></span>夜间</nav>
+        </div>
+    </aside>
+    <!-- 底部结构 -->
+    <footer>
+        <div>
+            
+            <ul class="clearfix fd_menu ">
+                <li>
+                    <a href="javascript:;" class="fd_menu_class">首页</a>
+                </li>
+                <li>
+                    <a href="manhua.html">漫画</a>
+                </li>
+                <li>
+                    <a href="javascript:;">热血</a>
+                </li>
+                <li>
+                    <a href="javascript:;">搞笑</a>
+                </li>
+                <li>
+                    <a href="main.html">无用背景</a>
+                </li>  
+            </ul>
+        </div>
+    </footer>
+    
+    <script>
+        // 轮播
+//     var gallery = mui('.mui-slider');
+//         gallery.slider({
+//   interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+// });
+
+
+// 滑动事件
+mui.init();
+	(function($) {
+		$('.mui-scroll-wrapper').scroll({
+			bounce: false,
+					indicators: true, //是否显示滚动条
+
+				});
+	})(mui);
+    </script>
+</body>
+</html>

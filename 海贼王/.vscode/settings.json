@@ -1,0 +1,10 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "window.menuBarVisibility": "toggle",
+    "git.ignoreMissingGitWarning": true
+}
